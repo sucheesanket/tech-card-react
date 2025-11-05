@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+  background-color: #121212;
+  color: #fff;
+}
+.hell{
+  display: flex;
+  flex-wrap: wrap;
+}
+.parent{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.cardbuild{
+  margin: 20px;
+  width: 300px;
+  border: 1px solid #fff;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #222;
+
+}
+.cardbuild h1{
+  font-size: 22px;
+  margin: 10px 0;
+}
+.cardbuild img{
+  margin: 10px 0;
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+.cardbuild button{
+  margin: 10px 0;
+padding: 10px 20px;
+border-radius: 8px;
+background-color: #fff;
+color: #121212;
+border: none;
+}
